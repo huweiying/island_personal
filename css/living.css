@@ -1,0 +1,188 @@
+header,section,footer{
+    width:100%;
+    border:1px solid transparent;
+}
+
+/************header*************/
+
+
+/*********面包屑导航**********/
+#bread-crumb{
+    width: 100%;
+    padding:40px 0;
+    background-color: #494C53;
+    color:#fff;
+    font-size: 14px;
+}
+/********主题内容********/
+section.content{
+    background-color: #EFF1F5;
+    min-height: 700px;
+}
+div.text{
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 50px 60px;
+}
+div.text h5{
+    text-align: center;
+    font-size: 30px;
+    color: #4A525D;
+    font-family: inherit;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+div.text p{
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+div.box_traffic{
+    width:100%;
+    padding:30px 50px;
+    border-left:4px solid #0DBAE8;
+    background-color: #EDF2F5;
+    font-size: 18px;
+    position: relative;
+    margin-top: 30px;
+}
+div.box_traffic b:before{
+    content:"\f10d";
+    position: absolute;
+    top:21%;
+    left:2.5%;
+    color:#D5DCDF;
+    font-size: 24px;
+}
+div.hotel{
+    width:100%;
+    margin-top: 30px;
+}
+div.title{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+div.title>span{
+    display: inline-block;
+    text-align: center;
+    width: 38%;
+    height: 20px;
+}
+div.title>span span.line{
+    border-top: 1px solid #00C1CF;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top:-4px;
+}
+div.title h4{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+}
+div.hotel div.distance>span{
+    width:35%;
+}
+div.hotel div.distance span.line{
+    width: 40%;
+    border-top: 1px solid #F7BE68;
+}
+div.hotel div.distance span:first-child span.line{
+    float:right;
+    position: relative;
+    top:75%
+}
+div.hotel div.distance span:last-child span.line {
+    float: left;
+    position: relative;
+    top:75%;
+}
+div.hotel_show{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+div.hotel_show div.hotel_item{
+    width:320px;
+    height:400px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+div.hotel_item>h4{
+    text-align: center;
+    font-size: 20px;
+    margin:20px 0;
+	color:#333;
+}
+div.hotel_item ul{
+	height:240px;
+	position:relative;
+}
+div.hotel_item ul>li{
+    width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+	transition:opacity 1s linear;
+}
+div.hotel_item ul>li.show{
+	opacity:1;
+	z-index:10;
+}
+div.hotel_item ul>li img{
+    width: 100%;
+}
+div.hotel_item>p{
+    margin-top:20px;
+    width: 100%;
+}
+div.hotel_item p button{
+    width:45%;
+    border-radius: 5px;
+    text-align: center;
+    height:45px;
+    line-height: 45px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    color:#fff;
+}
+button.agoda{
+    background-color: #FF9900;
+}
+button.agoda:hover{
+    background-color: #E08700;
+}
+button.booking{
+    background-color: #5472D2;
+}
+button.booking:hover{
+    background-color: #3C5ECC;
+}
+div.more{
+    margin: 30px 0;
+    width: 100%;
+    text-align: center;
+}
+div.more button{
+    cursor: pointer;
+    padding:20px 60px;
+    margin: 0 20px;
+    border-radius: 5px;
+    border:0;
+    outline: none;
+    color:#fff;
+}
+
+/**********aside online_ask**********/
+aside a.online_ask{
+    position: fixed;
+    top:70%;
+    left:90%;
+    width: 190px;
+    height: 100px;
+    background:url("../img/seekColorBack1.png") no-repeat;
+}

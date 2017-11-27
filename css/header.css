@@ -1,0 +1,139 @@
+header,section,footer{
+    width:100%;
+    border:1px solid transparent;
+}
+.container{
+    width:70%;
+    margin:0 auto;
+}
+/************header*************/
+.header{
+    padding-top:20px;
+}
+.header:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+#header_right{
+    width:70%;
+}
+#header_right span>a,#header_right span{
+    font-size:14px;
+    color:#999;
+}
+#header_right nav{
+    border-top:2px solid #ccc;
+    margin-top:20px;
+    width:100%;
+}
+#header_right nav>ul{
+    margin-top:20px;
+    margin-left:40px;
+}
+#header_right nav>ul>li{
+    float:left;
+}
+#header_right nav>ul>li>a{
+	color:#333;
+    padding:10px 20px;
+    display: inline-block;
+}
+#header_right nav>ul>li a.active{
+    background-color:#4A525D;
+    color:#fff;
+}
+#header_right nav>ul>li>ul{
+	position:absolute;
+	z-index:100;
+	height:0;
+	overflow:hidden;
+}
+#header_right nav>ul>li>ul>li>a{
+	background:#4A525D;
+	color:#999;
+	display:block;
+	width:240px;
+	text-align:center;
+	font-size:14px;
+	padding:12px 0;
+}
+#header_right nav>ul>li ul.active{
+	height:300px;
+}
+#header_right nav>ul>li ul>li>a:hover{
+	color:#fff;
+}
+/**********aside online_ask**********/
+aside a.online_ask{
+    position: fixed;
+    top:70%;
+    left:90%;
+    width: 190px;
+    height: 100px;
+    background:url("../img/seekColorBack1.png") no-repeat;
+}
+/******登录模态框*****/
+.login_box{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background:rgba(0,0,0,.7);
+	z-index:100;
+	position:fixed;
+}
+.login_container{
+	width:400px;
+	height:300px;
+	border-radius:10px;
+	padding:30px;
+	background:#eee;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-150px;
+	margin-left:-200px;
+}
+.login_container>h3{
+	font-size:30px;
+	text-align:center;
+}
+.login_container>p{
+	margin:20px 0;
+	line-height:25px;
+	font-size:20px;
+	
+}
+.login_container input{
+	outline:none;
+	height:30px;
+	width:200px;
+	padding:2px 5px;
+}
+.login_container button{
+	width:110px;
+	height:50px;
+	border-radius:10px;
+	color:#fff;
+	font-size:20px;
+	margin:10px 30px;
+	background:#EA8E31;
+	border:0;
+}
+.hidden{
+	display:none;
+}
+
+/**********aside online_ask**********/
+aside #move{
+	position:fixed;
+	top:70%;
+	left:90%;
+	background:url("../img/seekColorBack1.png") no-repeat;
+	height: 100px;
+	width: 190px;
+	cursor:pointer;
+	transition:none;
+}

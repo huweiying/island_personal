@@ -1,0 +1,151 @@
+footer{
+    width:100%;
+    border:1px solid transparent;
+}
+
+
+/**********footer_box**********/
+#footer_box{
+    width:100%;
+    background-color: #4A525D;
+    min-height: 200px;
+    padding:40px 0;
+}
+#footer_box .footer_item{
+    width:20%;
+    padding:0 1%;
+}
+#footer_box .footer_item p.copyright{
+    color:#fff;
+    font-size:14px;
+}
+#footer_box .footer_item p.copyright a{
+    color:#9AA2AA;
+}
+#footer_box .footer_item p.copyright a:hover{
+    color:#fff;
+}
+#footer_box .footer_item img{
+    margin:10px 0;
+    width:100%;
+}
+#footer_box .item2 p{
+    color:#fff;
+    font-size: 14px;
+    margin-bottom:20px;
+}
+#footer_box .item2 div{
+    margin-bottom: 30px;
+}
+#footer_box .item2 li{
+    color:#fff;
+}
+#footer_box .item2 li a{
+    color:#7D858E;
+}
+#footer_box .item2 li a:hover{
+    color:#fff;
+}
+#footer_search .search_box{
+    width:100%;
+    background-color: #0DBAE8;
+    position: relative;
+}
+#footer_search .search_box input{
+    padding:13px 20px;
+    background-color: #0DBAE8;
+    outline: none;
+    border: 0;
+    color:#4A525D;
+}
+#footer_search .search_box input[type="submit"]{
+    position: absolute;
+    top:0;
+    left:82%;
+}
+#footer_search .search_box input[type="submit"]:hover{
+    background-color: #FF8000;
+}
+#footer_sel span{
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+#footer_sel span b:before{
+    content:"\f078";
+    position: absolute;
+    top:30%;
+    left:90%;
+    color:#B5B9BF;
+}
+.hotel_item{
+    padding-top: 10px;
+    height: 900px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.hotel_item h4{
+    display: inline-block;
+    font-size: 18px;
+    color:#fff;
+    cursor: pointer;
+    font-weight: 500;
+}
+.hotel_item i{
+    color:#ACACAC;
+    font-style: normal;
+}
+#weather{
+    margin: 30px 0;
+    text-align: center;
+    color:#fff;
+}
+#weather div.weather_box{
+    width: 100%;
+    margin-top: 20px;
+}
+#weather div.weather_box>p{
+    padding: 10px;
+    background-color: #9A526A;
+}
+#weather div.weather_body{
+    background-color: #C06684;
+    font-size: 16px;
+}
+#weather div.weather_body .wea_detail{
+    width:100%;
+    padding:20px 20px 10px 20px;
+}
+#weather div.weather_body strong{
+    font-size: 54px;
+    position: relative;
+}
+
+#weather div.weather_body strong sup{
+    font-size: 30px;
+    position: absolute;
+    top:30%;
+    left:99%;
+}
+#weather div.weather_body .wea_weak{
+    width: 100%;
+    padding:10px;
+    border-top:1px solid #fff;
+    font-size: 14px;
+}
+#weather div.weather_body .wea_weak .wea_item{
+    width: 19%;
+    text-align: center;
+}
+div.footer_addr a{
+    color:#191C20;
+    font-size: 16px;
+}
+div.footer_addr a:hover{
+    color:#0DBAE8;
+}

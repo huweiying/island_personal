@@ -1,0 +1,34 @@
+body,h1,h2,h3,h4,h5,p,dd,dl,dt,ol,ul,li{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color:#fff;
+}
+ul{
+    list-style: none;
+}
+.lf{
+    float:left;
+}
+.rf{
+    float:right;
+}
+.clear:after{
+    display: block;
+    content: "";
+    clear:both;
+}
+body{
+    color:#4a525d;
+    font-family: "Microsoft YaHei", 微软雅黑, "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*{
+    box-sizing: border-box;
+    transition: all .5s;
+    -moz-transition:all .5s;
+    -webkit-transition:all .5s;
+    -o-transition:all .5s;
+}
